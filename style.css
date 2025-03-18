@@ -49,6 +49,7 @@ ul {
   flex-grow: 1;
   flex-shrink: 0;
 }
+
 .products,
 .product-details {
   border-left: 1px solid #ccc;
@@ -71,6 +72,7 @@ ul {
 .products-container li {
   perspective: 20rem;
 }
+
 .product,
 .categories-container button,
 .sizes-container button,
@@ -90,6 +92,7 @@ ul {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
 }
+
 .product {
   padding-inline: 0.85rem;
   padding-bottom: 0.85rem;
