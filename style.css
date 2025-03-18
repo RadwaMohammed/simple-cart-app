@@ -32,6 +32,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  padding-block: 0.5rem;
 }
 
 .products {
@@ -142,18 +143,25 @@ ul {
   background-color: #08936b;
 }
 
+.product-details, 
+.cart {
+  min-width: 15rem;
+  min-height: 20vh;
+} 
+
 .product-details {
   position: relative;
-  min-width: 18rem;
+
 }
 
 .no-data {
+  font-size: 0.85rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
+
 .product-details h2,
 .cart hgroup h2 {
   font-size: 1.2rem;
