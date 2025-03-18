@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تسوق اونلاين</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="wrapper">
+    <section class="products">
+      <h2>المنتجات</h2>
+      <ul class="products-container" id="products">        
+      </ul>
+      <ul class="categories-container">
+        <li>
+          <button class="active">
+            دجاج
+          </button>
+        </li>
+        <li>
+          <button>
+            الاسماك
+          </button>
+        </li>
+      </ul>
+    </section>
+    <div class="left-content">
+      <section class="product-details" id="product-details">
+        <p class="no-data">لا توجد بيانات للعرض</p>
+      </section>
+      <section class="cart">
+        <hgroup>
+          <h2>ملخص الطلب</h2>
+          <button id="empty-cart">تفريغ السلة</button>
+        </hgroup>
+        <table>
+          <thead>
+            <tr>
+              <th>
+                الصنف
+              </th>
+              <th colspan="2">
+                السعر
+              </th>
+            </tr>
+          </thead>
+          <tbody id="order-details">
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3"></td>
+              <tr>
+            <tr>
+              <td>اجمالي</td>
+              <td colspan="2"><span id="total">0.00</span>ج.م</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
