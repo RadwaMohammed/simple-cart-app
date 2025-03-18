@@ -14,7 +14,7 @@ const getData = () => {
           <figure class="product" onclick="getProductDetails('${encodeURIComponent(
             JSON.stringify(product)
           )}')">
-            <img src="./images/${product.image}" alt="${product.name}">
+            <img src="./images/${product.image}" alt="${product.name}" loading="lazy">
             <figcaption>
               <h3>${product.name}</h3>
               <p>${product.sizes["كبير أوي"]}ج.م</p>
